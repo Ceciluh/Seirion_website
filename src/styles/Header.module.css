@@ -1,0 +1,23 @@
+.header {
+  height: 5.25rem;
+  background: #1e293b;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 0 0 2rem;
+  border-bottom: 1px solid #0f172a;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  height: 100%;           /* Para que los botones ocupen la barra entera */
+  gap: 0.5rem;
+}
