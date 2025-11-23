@@ -10,9 +10,9 @@ export default function Header() {
       {/* Contenedor de botones */}
       <nav className={styles.nav}>
         <NavButton label="Inicio" to="/" />
-        <NavButton label="About"  to="/about" />
-        <NavButton label="Cases"  to="/cases" />
-        <NavButton label="Map"    to="/visualizations" />
+        <NavButton label="Nosotros"  to="/about" />
+        <NavButton label="Casos"  to="/cases" />
+        <NavButton label="Mapa"    to="/visualizations" />
       </nav>
     </header>
   );
