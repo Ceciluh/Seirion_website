@@ -15,9 +15,7 @@ export default function About() {
               somos.
             </h1>
             <p className="about-description">
-              Seirion es una plataforma que busca la transparencia que falta entre los puertos oficiales, 
-              una página hecha por ciudadanos para ciudadanos, donde cualquier persona puede documentar 
-              y verificar casos de corrupción en México.
+              Seirion es una plataforma que busca la transparencia que falta entre los puestos oficiales, una página hecha por ciudadanos para ciudadanos, donde cualquier persona puede documentar y verificar casos de corrupción en México.
             </p>
           </div>
           
@@ -51,28 +49,24 @@ export default function About() {
               <div className="values-text">
                 <h2>Nuestros Valores</h2>
                 <p>
-                  En Seirion creemos que la verdad no viene con censura. Defendemos el libre albedrío de 
+                  En Seirion creemos que la verdad no viene con censura. Defendemos el libre albedrío al
                   documentar y compartir la realidad sin importar a quién incomode.
                 </p>
                 <p>
                   Cada ciudadano tiene el derecho de denunciar, verificar y preservar 
                   información sobre corrupción. Sin filtros políticos, sin secretos, 
-                  sin palabreria bonita. Solo la verdad.
+                  sin palabrería bonita. Solo la verdad.
                 </p>
               </div>
             </div>
           </div>
 
           <StarSeparator />
-
-          
-          {/* Gratitude Section */}
-          {/* MODIFICACIÓN: Ahora toma el ancho completo de la pantalla */}
           <div className="gratitude-section">
             <div className="gratitude-box">
               <h3>Agradecimiento Especial</h3>
               <p>
-                A nuestra profesora, la razón por la que siquiera este sitio existe. Muchas gracias por impulsarnos a hacer mas.
+                A nuestra profesora, la razón por la que siquiera este sitio existe. Muchas gracias por impulsarnos a hacer más.
               </p>
               <div className="gratitude-signature">
                 - Seirion
