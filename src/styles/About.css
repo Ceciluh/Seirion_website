@@ -74,7 +74,9 @@
   height: 100%;
   max-width: 100%;
   object-fit: contain;
-  opacity: 0.6;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 10px rgba(206, 240, 255, 0.849))
+  drop-shadow(0 0 30px rgba(169, 207, 223, 0.3));
 }
 
 .star-line {
