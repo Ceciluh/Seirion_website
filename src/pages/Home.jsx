@@ -1,5 +1,6 @@
 import MenuButton from '../components/HButton';
 import FeatureCard from '../components/FeatureCard';
+import StarSeparator from '../components/StarSeparator'; 
 import '../styles/Home.css';
 
 function Home() {
@@ -24,28 +25,35 @@ function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="features-section">
         <div className="features-container">
           
           <FeatureCard
             title="Corruptour"
-            description="Mapa interactivo que visualiza geográficamente los lugares donde ocurrieron casos documentados de corrupción en México."
+            description="Mapa interactivo para una mejor visualización de la corrupción en el país."
             imageSrc="/src/assets/corruptourimage.png"
-          />
+            />
+            <FeatureCard
+              title="Casos Verificados"
+              description="Base de datos de casos documentados por ciudadanos para ciudadanos, garantizando información confiable."
+              imageSrc="/src/assets/casosimage.jpg"
+            />
+            <FeatureCard
+              title="De Ciudadanos para Ciudadanos"
+              description="Una plataforma creada para la lucha contra la corrupción. Independiente y solamente para el pueblo."
+              imageSrc="/src/assets/ciudadanosimage.jpg"
+            />
+        </div>
+      </section>
 
-          <FeatureCard
-            title="Casos Verificados"
-            description="Base de datos de casos documentados y verificados por ciudadanos para ciudadanos, garantizando información confiable."
-            imageSrc="/src/assets/casosimage.jpg"
-          />
+      <StarSeparator />
 
-          <FeatureCard
-            title="De Ciudadanos para Ciudadanos"
-            description="Plataforma colaborativa tipo Wikipedia dedicada exclusivamente a documentar la corrupción en México."
-            imageSrc="/src/assets/ciudadanosimage.jpg"
-          />
-
+      <section className="cta-section">
+        <div className="cta-container">
+          <h2 className="cta-title">¿Tienes casos que reportar?</h2>
+          <div className="cta-button-wrapper">
+            <MenuButton label="Ver Casos" to="/cases" />
+          </div>
         </div>
       </section>
 

@@ -1,0 +1,13 @@
+.separator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.star {
+  font-size: 1rem;
+  color: #9ca3af;
+  opacity: 0.5;
+}

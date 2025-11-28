@@ -1,0 +1,275 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(11, 18, 32, 0.95);
+  border-radius: 1rem;
+  margin: 0 10px;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  z-index: 2;
+}
+
+.about-title {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #f1f5f9;
+  margin-bottom: 40px;
+  text-align: left;
+  letter-spacing: -0.02em;
+}
+
+.about-description {
+  font-size: 1.35rem;
+  line-height: 1.9;
+  color: #cbd5e1;
+  text-align: left;
+}
+
+.about-image-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: transparent;
+}
+
+.about-image {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.6;
+}
+
+.star-line {
+  display: none;
+}
+
+.values-section {
+  width: 100%;
+  border-radius: 1rem;
+  background: #0b1220;
+}
+
+.values-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.values-image-container {
+  width: 100%;
+  height: 500px;
+  border-radius: 1rem 0 0 1rem;
+  overflow: hidden;
+  background: #1e293b;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
+}
+
+.values-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.values-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #38bdf8;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.values-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #9ca3af;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.gratitude-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gratitude-box {
+  background: #0b1220;
+  border: 1px solid #334155;
+  padding: 60px 80px;
+  border-radius: 1.5rem;
+  max-width: 1200px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
+  position: relative;
+}
+
+.gratitude-box::before {
+  content: '"';
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 6rem;
+  color: rgba(56, 189, 248, 0.2);
+  font-family: Georgia, serif;
+}
+
+.gratitude-box h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #e5e7eb;
+  margin-bottom: 24px;
+}
+
+.gratitude-box p {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #9ca3af;
+  margin-bottom: 24px;
+}
+
+.gratitude-signature {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #9ca3af;
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 30px;
+  }
+  
+  .about-title {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  
+  .about-description {
+    text-align: center;
+  }
+  
+  .about-image-section {
+    order: -1;
+    height: 400px;
+  }
+  
+  .about-image {
+    height: 100%;
+  }
+  
+  .values-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 0;
+  }
+  
+  .about-content {
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+  }
+  
+  .about-image-section {
+    height: 300px;
+  }
+  
+  .story-section {
+    padding: 60px 0;
+  }
+  
+  .values-section {
+    margin-bottom: 80px;
+    padding: 60px 0;
+  }
+  
+  .values-content {
+    padding: 0 20px;
+    gap: 40px;
+  }
+  
+  .values-image-container {
+    height: 300px;
+  }
+  
+  .values-text h2 {
+    font-size: 2rem;
+  }
+  
+  .values-text p {
+    font-size: 1.05rem;
+  }
+  
+  .gratitude-section {
+    padding: 60px 0;
+  }
+  
+  .gratitude-box {
+    padding: 40px 30px;
+    width: 95%;
+  }
+  
+  .gratitude-box h3 {
+    font-size: 1.8rem;
+  }
+  
+  .gratitude-box p {
+    font-size: 1.05rem;
+  }
+}
