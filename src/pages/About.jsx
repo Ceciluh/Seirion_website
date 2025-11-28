@@ -1,7 +1,6 @@
 import '../styles/About.css';
-import StarSeparator from '../components/StarSeparator'; 
-
-
+import StarSeparator from '../components/StarSeparator';
+import Footer from '../components/Footer';
 
 export default function About() {
   return (
@@ -29,9 +28,7 @@ export default function About() {
         </div>
         <div className="about-decorative-bg"></div>
       </div>
-
       <StarSeparator />
-
       
       <div className="story-section">
         <div className="story-container">
@@ -60,7 +57,6 @@ export default function About() {
               </div>
             </div>
           </div>
-
           <StarSeparator />
           <div className="gratitude-section">
             <div className="gratitude-box">
@@ -75,6 +71,8 @@ export default function About() {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 }

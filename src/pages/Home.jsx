@@ -1,6 +1,7 @@
 import MenuButton from '../components/HButton';
 import FeatureCard from '../components/FeatureCard';
-import StarSeparator from '../components/StarSeparator'; 
+import StarSeparator from '../components/StarSeparator';
+import Footer from '../components/Footer';
 import '../styles/Home.css';
 
 function Home() {
@@ -24,7 +25,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section className="features-section">
         <div className="features-container">
           
@@ -45,9 +45,7 @@ function Home() {
             />
         </div>
       </section>
-
       <StarSeparator />
-
       <section className="cta-section">
         <div className="cta-container">
           <h2 className="cta-title">¿Tienes casos que reportar?</h2>
@@ -56,11 +54,8 @@ function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>© Seirion 2025</p>
-      </footer>
+      
+      <Footer />
     </div>
   );
 }
